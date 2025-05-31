@@ -28,7 +28,9 @@ This is an architecture for a scalable web application on AWS using the followin
 2. ASG: `AWSServiceRoleForAutoScaling`
 3. CloudWatch: `CloudWatchReadOnlyAccess`
 
-4. |              | Inbound traffic                      | Outbound traffic                       |
+   ## Security Groups:
+
+|              | Inbound traffic                      | Outbound traffic                       |
 | :----        | :----                                | :----                                  |
 | ALB web tier | 0.0.0.0/0  :80 , 443                 | IP range of web EC2 subnets :80 ,443   |
 | Web tier EC2 | IP of Web ALB : 80 , 443             | IP of App ALB:5000                     |
