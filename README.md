@@ -2,7 +2,7 @@
 ## Content:
 - [High-level overview of the project](#high-level-overview-of-the-project)
 - [Key AWS Services Used](#key-aws-services-used)
-- - [Some Notes](#some-notes)
+- [Some Notes](#some-notes)
 - [IAM Roles](#some-notes)
 - [Security Groups](#security-groups)
 - [Project Flow](#project-flow)
