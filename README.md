@@ -7,7 +7,7 @@
 - [Security Groups](#security-groups)
 - [Project Flow](#project-flow)
 ## High-level overview of the project:
-![Architecture](Image.png)
+![Architecture](Scalable Web Application.png)
 ## AWS Services Used:
 This is an architecture for a scalable web application on AWS using the following services:
 
